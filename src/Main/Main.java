@@ -17,7 +17,7 @@ public class Main {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("StageLightCompany AB");
+        window.setTitle("StageLights AB");
 
         JPanel bottomPanel = new JPanel();
         bottomPanel.setPreferredSize(new Dimension(800, 480));
