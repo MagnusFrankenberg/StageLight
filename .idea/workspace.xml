@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7abc2b26-30ab-4827-978f-d2d337c0f16e" name="Changes" comment="Smaller adjustments">
+    <list default="true" id="7abc2b26-30ab-4827-978f-d2d337c0f16e" name="Changes" comment="Smaller adjustments2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TextLabels/Config1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TextLabels/Config1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TextLabels/Config2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TextLabels/Config2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TextLabels/Config3.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TextLabels/Config3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TextLabels/StageLarge.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TextLabels/StageLarge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TextLabels/StageMedium.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TextLabels/StageMedium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TextLabels/StageSmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TextLabels/StageSmall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/ButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/ButtonHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/State.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +107,7 @@
       <workItem from="1671628961084" duration="454000" />
       <workItem from="1671629997056" duration="62504000" />
       <workItem from="1671739914576" duration="8639000" />
-      <workItem from="1671781640937" duration="2292000" />
+      <workItem from="1671781640937" duration="6795000" />
     </task>
     <task id="LOCAL−00001" summary="Big update working program">
       <created>1671737918464</created>
@@ -130,7 +121,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1671750755689</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Smaller adjustments2">
+      <created>1671784019864</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1671784019864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Big update working program" />
     <MESSAGE value="Smaller adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Smaller adjustments" />
+    <MESSAGE value="Smaller adjustments2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smaller adjustments2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StageLight$Main.ic" NAME="Main Coverage Results" MODIFIED="1671782006854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
