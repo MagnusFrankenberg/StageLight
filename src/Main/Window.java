@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-public class Main {
+public class Window {
 
     JButton button1;
     JButton button2;
@@ -13,7 +13,7 @@ public class Main {
     ButtonHandler buttonHandler;
 
 
-    public Main(){
+    public Window(){
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
@@ -31,8 +31,11 @@ public class Main {
         buttonPanel.setBackground(new Color(50,50,50));
         buttonPanel.setBorder(new EmptyBorder(10,10,10,10));
 
-        button1 = new JButton("Show another StageClass >>");
-        button2 = new JButton("Show another Configuration >>");
+
+        button1 = new JButton("Next Stageclass >>");
+        button2 = new JButton("Next Light-Configuration >>");
+        button1.setFont(new Font("Verdana",Font.BOLD,13));
+        button2.setFont(new Font("Verdana",Font.BOLD,13));
         button1.setPreferredSize(new Dimension(240,50));
         button2.setPreferredSize(new Dimension(240,50));
         button1.addActionListener(new ButtonHandler(this, demoPanel));
@@ -59,7 +62,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Main m = new Main();
+        Window m = new Window();
 
     }
 }

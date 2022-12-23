@@ -1,25 +1,24 @@
 package Main;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ButtonHandler implements ActionListener {
 
-    Main main;
+    Window window;
     DemoPanel dp;
-    public ButtonHandler(Main main, DemoPanel dp){
-        this.main = main;
+    public ButtonHandler(Window window, DemoPanel dp){
+        this.window = window;
         this.dp = dp;
 
     }
     @Override
     public void actionPerformed(ActionEvent e) {
 
-        if(e.getSource().equals(main.button1)){
+        if(e.getSource().equals(window.button1)){
             dp.nextStage();
         }
-        if(e.getSource().equals(main.button2)){
+        if(e.getSource().equals(window.button2)){
             dp.nextConfiguration();
         }
     }
